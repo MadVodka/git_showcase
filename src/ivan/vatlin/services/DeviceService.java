@@ -4,4 +4,6 @@ public interface DeviceService {
     void turnOn();
 
     void turnOff();
+
+    void setDefaultSettings();
 }
