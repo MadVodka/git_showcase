@@ -6,4 +6,6 @@ public interface DeviceService {
     void turnOff();
 
     void reboot();
+
+    void setDefaultSettings();
 }
