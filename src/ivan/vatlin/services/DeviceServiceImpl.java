@@ -20,4 +20,9 @@ public class DeviceServiceImpl implements DeviceService {
     public void setDefaultSettings() {
         System.out.println("Device got default state");
     }
+
+    @Override
+    public void turnRecoveryMode() {
+        System.out.println("Device in recovery mode");
+    }
 }

@@ -8,4 +8,6 @@ public interface DeviceService {
     void reboot();
 
     void setDefaultSettings();
+
+    void turnRecoveryMode();
 }
