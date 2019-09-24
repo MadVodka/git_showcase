@@ -18,6 +18,6 @@ public class DeviceServiceImpl implements DeviceService {
 
     @Override
     public void setDefaultSettings() {
-        System.out.println("Device got default settings");
+        System.out.println("Device got default state");
     }
 }
